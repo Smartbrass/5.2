@@ -1,4 +1,6 @@
 Slovo = input("Введите слово:")
+
+# Счетчики по нулям
 Count_Glasnie = 0
 Count_Soglasnie = 0
 Count_a = 0
@@ -7,6 +9,7 @@ Count_i = 0
 Count_o = 0
 Count_u = 0
 
+# Преобразуем списк в переменные
 Glasnie = set("aeiou")
 Soglasnie = set("bcdfghjklmnpqrstvwxyz")
 a = ("a")
@@ -14,7 +17,7 @@ e = ("e")
 i = ("i")
 o = ("o")
 u = ("u")
-
+# Считаем 
 for l in Slovo:
     if l in Glasnie:
         Count_Glasnie +=1
@@ -30,7 +33,7 @@ for l in Slovo:
             Count_u +=1  
     if l in Soglasnie:
         Count_Soglasnie +=1
-
+# Выводим результаты
 print("Согласных Букв -", (Count_Soglasnie))
 print("Гласных Букв -", (Count_Glasnie))
 if Count_a > 0:
