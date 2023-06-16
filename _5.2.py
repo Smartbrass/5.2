@@ -22,16 +22,16 @@ for l in Slovo:
     if l in Glasnie:
         Count_Glasnie +=1
     if l in a:
-            Count_a +=1
+        Count_a +=1
     if l in e:
-            Count_e +=1
+        Count_e +=1
     if l in i:
-            Count_i +=1
+        Count_i +=1
     if l in o:
-            Count_o +=1
+        Count_o +=1
     if l in u:
-            Count_u +=1  
-    if l in Soglasnie:
+        Count_u +=1  
+    elif l in Soglasnie:
         Count_Soglasnie +=1
 # Выводим результаты
 print("Согласных Букв -", (Count_Soglasnie))
