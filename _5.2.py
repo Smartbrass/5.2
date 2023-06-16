@@ -8,7 +8,7 @@ Count_o = 0
 Count_u = 0
 
 Glasnie = set("aeiou")
-Soglasnie = set("abcdefghijklmnopqrstuvwxyz")
+Soglasnie = set("bcdfghjklmnpqrstvwxyz")
 a = ("a")
 e = ("e")
 i = ("i")
