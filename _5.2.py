@@ -10,8 +10,8 @@ Count_o = 0
 Count_u = 0
 
 # Преобразуем списк в переменные
-Glasnie = set("aeiou")
-Soglasnie = set("bcdfghjklmnpqrstvwxyz")
+Glasnie = ("aeiou")
+Soglasnie = ("bcdfghjklmnpqrstvwxyz")
 a = ("a")
 e = ("e")
 i = ("i")
